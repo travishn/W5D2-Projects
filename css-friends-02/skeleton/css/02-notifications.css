@@ -1,0 +1,33 @@
+/* PHASE 2: Notifications */
+
+.header-list > li {
+  position: relative;
+}
+.header-notifications {
+  position: absolute;
+  font-size: 14px;
+}
+
+.header {
+  z-index: 1;
+  position: relative;
+}
+
+.header-notifications {
+  display: none;
+}
+.header-notifications > li {
+  color: black;
+  background-color: white;
+  border-left: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  white-space: nowrap;
+}
+li:hover .header-notifications {
+  display: block;
+}
+
+.header-notifications > li:hover {
+  background: lightblue;
+}
